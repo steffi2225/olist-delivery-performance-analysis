@@ -15,7 +15,7 @@ In addition to evaluating the impact of delivery performance on customer satisfa
 
 ## Data Structure Overview 
 The Olist dataset consists of multiple relational tables covering orders, customers, sellers, products, payments, and customer reviews. For this analysis, six core tables were used: Orders, Order Items, Customers, Sellers, Reviews, and Products.
-(image)
+![Dashboard - Source: https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce](images/Power BI Dashboard -Frame.png)
 The analysis was conducted using SQL in BigQuery for data preparation and exploratory analysis, followed by data visualization in Power BI.
 
 #### Key Data Relationships

@@ -63,15 +63,17 @@ Orders delayed by more than 60 days account for only a small proportion of the d
 
 ## Insights Deep Dive
 ### Delivery Performance Remained Strong Throughout the Analysis Period
-![insight1](images/monthly-orders-by-delivery-status.png)
+![insight1](images/monthly-order-by-delivery-status.png)
 Monthly order volume grew from around 800 orders in January 2017 to over 6,000 orders by August 2018. Despite this substantial increase in order volume, approximately 93% of delivered orders continued to arrive on or before the estimated delivery date, suggesting that Olist was able to sustain its delivery performance while scaling its marketplace operations.
 
 ### Customer Satisfaction Generally Declines as Delivery Delays Increase
+![insight2](images/average-rating-score-by-delay-bucket.png)
 Customer review ratings generally declined as delivery delays increased, suggesting a strong relationship between delivery performance and customer satisfaction. Orders delivered on or before the estimated delivery date achieved the highest average review score (4.29), while longer delivery delays were associated with progressively lower ratings. 
 
 Although the average review score appears to improve for delays exceeding 60 days, these categories account for less than 0.1% of delivered orders. As a result, this pattern is more likely to reflect the limited sample size than a meaningful improvement in customer satisfaction. Overall, the findings indicate that delivering orders on time plays an important role in maintaining customer satisfaction.
 
 ### Delivery Performance Alone Does Not Fully Explain Customer Satisfaction
+![insight3](images/rating-score-by-delay-bucket.png)
 Although on-time deliveries achieved the highest average review score, only 62% of these orders received a 5-star rating. This suggests that delivery performance, while important, does not fully explain customer satisfaction. Factors beyond logistics—such as product quality, packaging, or overall customer expectations—may also contribute to customers' evaluations, although these aspects were outside the scope of this analysis. Overall, the findings indicate that improving delivery performance alone is unlikely to maximize customer satisfaction.
 
 ## Recommendations

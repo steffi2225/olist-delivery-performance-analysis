@@ -15,7 +15,7 @@ In addition to evaluating the impact of delivery performance on customer satisfa
 
 ## Data Structure Overview 
 The Olist dataset consists of multiple relational tables covering orders, customers, sellers, products, payments, and customer reviews. For this analysis, six core tables were used: Orders, Order Items, Customers, Sellers, Reviews, and Products.
-
+![ERD](images/olist-erd.png)
 *Source: Olist Brazilian E-commerce Dataset (Kaggle).*
 
 The analysis was conducted using SQL in BigQuery for data preparation and exploratory analysis, followed by data visualization in Power BI.
@@ -49,6 +49,7 @@ The dashboard below summarizes the key findings of the analysis, highlighting de
 
 ## Limitations
 ### 1. Dataset Time Coverage 
+
 The analysis covers delivered orders from January 2017 to August 2018. Since 2018 does not represent a complete calendar year, comparisons involving annual business growth or year-over-year performance were intentionally avoided to prevent misleading conclusions.
 
 ### 2. Delivered Orders Only
@@ -62,6 +63,7 @@ Orders delayed by more than 60 days account for only a small proportion of the d
 
 ## Insights Deep Dive
 ### Delivery Performance Remained Strong Throughout the Analysis Period
+![insight1](images/monthly-orders-by-delivery-status.png)
 Monthly order volume grew from around 800 orders in January 2017 to over 6,000 orders by August 2018. Despite this substantial increase in order volume, approximately 93% of delivered orders continued to arrive on or before the estimated delivery date, suggesting that Olist was able to sustain its delivery performance while scaling its marketplace operations.
 
 ### Customer Satisfaction Generally Declines as Delivery Delays Increase

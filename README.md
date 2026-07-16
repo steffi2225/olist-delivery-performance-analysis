@@ -15,7 +15,8 @@ In addition to evaluating the impact of delivery performance on customer satisfa
 
 ## Data Structure Overview 
 The Olist dataset consists of multiple relational tables covering orders, customers, sellers, products, payments, and customer reviews. For this analysis, six core tables were used: Orders, Order Items, Customers, Sellers, Reviews, and Products.
-![ERD](images/olist-erd.png)
+<img src= "images/olist-erd.png" width="550">
+
 *Source: Olist Brazilian E-commerce Dataset (Kaggle).*
 
 The analysis was conducted using SQL in BigQuery for data preparation and exploratory analysis, followed by data visualization in Power BI.
@@ -46,7 +47,7 @@ Orders delayed by more than 60 days exhibited some variation in review patterns;
 ## Dashboard Overview
 The dashboard below summarizes the key findings of the analysis, highlighting delivery performance, customer satisfaction, and the relationship between delivery delays and review ratings. Interactive filters allow users to compare results between 2017 and January–August 2018.
 ![Power BI Dashboard](images/powerbi-dashboard.png)
-
+[Download the Power BI report](powerbi/Olist_Delivery_Performance_Analysis.pbix)
 ## Limitations
 ### 1. Dataset Time Coverage 
 
@@ -63,17 +64,18 @@ Orders delayed by more than 60 days account for only a small proportion of the d
 
 ## Insights Deep Dive
 ### Delivery Performance Remained Strong Throughout the Analysis Period
-![insight1](images/monthly-order-by-delivery-status.png)
+<img src= "images/monthly-order-by-delivery-status.png" width="625">
+
 Monthly order volume grew from around 800 orders in January 2017 to over 6,000 orders by August 2018. Despite this substantial increase in order volume, approximately 93% of delivered orders continued to arrive on or before the estimated delivery date, suggesting that Olist was able to sustain its delivery performance while scaling its marketplace operations.
 
 ### Customer Satisfaction Generally Declines as Delivery Delays Increase
-![insight2](images/average-rating-score-by-delay-bucket.png)
+<img src= "images/average-rating-score-by-delay-bucket.png" width = "625">
 Customer review ratings generally declined as delivery delays increased, suggesting a strong relationship between delivery performance and customer satisfaction. Orders delivered on or before the estimated delivery date achieved the highest average review score (4.29), while longer delivery delays were associated with progressively lower ratings. 
 
 Although the average review score appears to improve for delays exceeding 60 days, these categories account for less than 0.1% of delivered orders. As a result, this pattern is more likely to reflect the limited sample size than a meaningful improvement in customer satisfaction. Overall, the findings indicate that delivering orders on time plays an important role in maintaining customer satisfaction.
 
 ### Delivery Performance Alone Does Not Fully Explain Customer Satisfaction
-![insight3](images/rating-score-by-delay-bucket.png)
+<img src= "images/rating-score-by-delay-bucket.png" width = "700">
 Although on-time deliveries achieved the highest average review score, only 62% of these orders received a 5-star rating. This suggests that delivery performance, while important, does not fully explain customer satisfaction. Factors beyond logistics—such as product quality, packaging, or overall customer expectations—may also contribute to customers' evaluations, although these aspects were outside the scope of this analysis. Overall, the findings indicate that improving delivery performance alone is unlikely to maximize customer satisfaction.
 
 ## Recommendations

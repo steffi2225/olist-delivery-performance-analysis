@@ -47,7 +47,7 @@ Orders delayed by more than 60 days exhibited some variation in review patterns;
 ## Dashboard Overview
 The dashboard below summarizes the key findings of the analysis, highlighting delivery performance, customer satisfaction, and the relationship between delivery delays and review ratings. Interactive filters allow users to compare results between 2017 and January–August 2018.
 ![Power BI Dashboard](images/powerbi-dashboard.png)
-[Download the Power BI report](powerbi/Olist_Delivery_Performance_Analysis.pbix)
+[Download the Power BI report](powerbi/olist_dashboard.pbix)
 ## Limitations
 ### 1. Dataset Time Coverage 
 
